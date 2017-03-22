@@ -4,16 +4,21 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 </head>
-<body>
-
-	<form id="frm1">
-		Nombre: <input type="text" name="name" id="name"><br>
-		Mail: <input type="text" name="email" id="email"><br>
-	</form>
-	<button onclick="myFunction()">Mostrar</button>
-
-	<p id="mostrarNombre"></p>
-	<p id="mostrarMail"></p>
+<body bgcolor="#E2A9F3"><!-- Se asigna un color al background-->
+	<div align="center"><!-- Se define un div para alinear los elementos del fomr al centro -->
+		<form id="frm1" >
+			<!-- Se establece un poco de siseño al formulario-->
+			<strong> Nombre: </strong> <br>
+			<input type="text" name="name" id="name"><br>
+			<strong>Mail:</strong><br>
+			<input type="text" name="email" id="email"><br>
+		</form>
+		<button onclick="myFunction()">Mostrar</button>
+	</div>
+	<!--Se asigna diseño para mostrar los datos ingresados-->
+	<h3 align="center" id ="datos"></h3>
+	<p align="center" id="mostrarNombre"></p>
+	<p align="center" id="mostrarMail"></p>
 
 	<script src="js/ejercicio3.js">//Se manda a llamar al script ejercicio3.js
 	</script>
